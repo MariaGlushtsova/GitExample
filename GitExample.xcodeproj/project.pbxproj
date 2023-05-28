@@ -37,6 +37,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		843A80902A23DBE5003F426E /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				84A7AC262A23CF7E00B85A87 /* Main.storyboard */,
+				84A7AC292A23CF7F00B85A87 /* Assets.xcassets */,
+				84A7AC2B2A23CF7F00B85A87 /* LaunchScreen.storyboard */,
+				84A7AC2E2A23CF7F00B85A87 /* Info.plist */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		843A80912A23DC04003F426E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				84A7AC202A23CF7E00B85A87 /* AppDelegate.swift */,
+				84A7AC222A23CF7E00B85A87 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		843A80922A23DC0E003F426E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				843A80912A23DC04003F426E /* App */,
+				84A7AC242A23CF7E00B85A87 /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		84A7AC142A23CF7E00B85A87 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +85,8 @@
 		84A7AC1F2A23CF7E00B85A87 /* GitExample */ = {
 			isa = PBXGroup;
 			children = (
-				84A7AC202A23CF7E00B85A87 /* AppDelegate.swift */,
-				84A7AC222A23CF7E00B85A87 /* SceneDelegate.swift */,
-				84A7AC242A23CF7E00B85A87 /* ViewController.swift */,
-				84A7AC262A23CF7E00B85A87 /* Main.storyboard */,
-				84A7AC292A23CF7F00B85A87 /* Assets.xcassets */,
-				84A7AC2B2A23CF7F00B85A87 /* LaunchScreen.storyboard */,
-				84A7AC2E2A23CF7F00B85A87 /* Info.plist */,
+				843A80922A23DC0E003F426E /* Sources */,
+				843A80902A23DBE5003F426E /* Recources */,
 			);
 			path = GitExample;
 			sourceTree = "<group>";
